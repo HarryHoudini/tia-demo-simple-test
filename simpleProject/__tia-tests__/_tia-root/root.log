@@ -1,0 +1,6 @@
+<<<< Summary of tests results: >>>> 
+FAILED
+Error: Unexpected line prefix:
+oldPath: C:\src\js\ExJS\tia-test\simpleProject\suite\__tia-tests__\_tia-suite\suite.log.notime
+newPath: C:\src\js\ExJS\tia-test\simpleProject\suite\__tia-tests__\_tia-suite\suite.et
+<<<< ===================== >>>> 
