@@ -1,0 +1,15 @@
+@@ -2,1 +2,1 @@
+-Title: Add new fabric
++Title: Test for client exceptions
+@@ -9,1 +9,1 @@
+-Click on element (id: submit) ... OK
++Send ENTER to element (id: submit) ... OK
+@@ -11,1 +11,3 @@
+-Initialization of TIA ExtJs Exp helpers ... OK
++Initialization of TIA ExtJs Exp helpers ... =================
++Pass: 0, Fail: 0
++OK
+@@ -13,3 +15,0 @@
+-Sleep 10000 ms ... OK
+-=================
+-Pass: 0, Fail: 0

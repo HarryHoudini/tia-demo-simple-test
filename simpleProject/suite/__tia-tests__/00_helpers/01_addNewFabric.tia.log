@@ -1,0 +1,15 @@
+=================
+Title: Add new fabric
+Initialization (with default profile) ... OK
+Maximize ... OK
+Loading a page with URL: "https://test5-demo.rvision.pro/login" ... OK
+Sleep 3000 ms ... OK
+Waiting for element enabled and visible by id (id: username) ... OK
+Script execution ... OK
+Click on element (id: submit) ... OK
+Sleep 5000 ms ... OK
+Initialization of TIA ExtJs Exp helpers ... OK
+Set body clicker to keep session active ... OK
+Sleep 10000 ms ... OK
+=================
+Pass: 0, Fail: 0

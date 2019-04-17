@@ -1,9 +1,0 @@
-=================
-Title: Test for client exceptions
-Initialization (with default profile) ... OK
-Sleep 10000 ms ... OK
-Loading a page with URL: "https://test5-demo.rvision.pro/login" ... OK
-Sleep 3000 ms ... OK
-Quiting ... OK
-=================
-Pass: 0, Fail: 0
