@@ -1,0 +1,13 @@
+{
+        "compilerOptions": {
+          "module": "commonjs",
+          "target": "es2018",
+          "sourceMap": true,
+          "inlineSourceMap": true,
+          "outDir": "./built",        
+          "lib": ["es2018"],          
+          "types": ["./simpleProject/suite/*", "node"]
+        },
+        "exclude": ["./node_modules/"]
+      }
+      

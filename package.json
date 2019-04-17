@@ -4,11 +4,15 @@
   "description": "Testing with tia freamfork",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/tia --run-self-tests"
+    "test": "./node_modules/.bin/tia"
   },
   "author": "Jon Jonson",
   "license": "ISC",
   "dependencies": {
-    "tia": "^0.26.8"
+    "@types/node": "^11.13.4",
+    "tia": "^0.26.8",
+    "ts-node": "^8.1.0",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.4.3"
   }
 }

@@ -1,0 +1,11 @@
+====================    Short Log BEGIN:    ====================
+ "suite", Dif: 1, fail: 0
+| "00_helpers", Dif: 1, fail: 0
+| | "01_clientExceptions.tia.js", DIF, fail: 0
+====================    Short Log END.    ====================
+
+====================    Verbose Log BEGIN:    ====================
+ "suite", Dif: 1, fail: 0, edif: 0, skip: 0, ""
+| "00_helpers", Dif: 1, fail: 0, edif: 0, skip: 0, ""
+| | "01_clientExceptions.tia.js", DIF, fail: 0, pass: 0, "Test for client exceptions"
+====================    Verbose Log END.    ====================
