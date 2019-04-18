@@ -4,9 +4,9 @@
   "run": 1,
   "passed": 0,
   "failed": 0,
-  "diffed": 0,
+  "diffed": 1,
   "expDiffed": 0,
-  "time": 24108.082173,
+  "time": 38022.107139,
   "skipped": 0,
   "screenShotCounter": 0,
   "children": [
@@ -16,9 +16,9 @@
       "run": 1,
       "passed": 0,
       "failed": 0,
-      "diffed": 0,
+      "diffed": 1,
       "expDiffed": 0,
-      "time": 24106.40675,
+      "time": 38020.637539,
       "skipped": 0,
       "screenShotCounter": 0,
       "children": [
@@ -28,9 +28,9 @@
           "run": 1,
           "passed": 0,
           "failed": 0,
-          "diffed": 0,
+          "diffed": 1,
           "expDiffed": 0,
-          "time": 24096.368393,
+          "time": 37987.865357,
           "skipped": 0,
           "screenShotCounter": 0
         }
@@ -38,6 +38,6 @@
     }
   ],
   "isSuiteRoot": true,
-  "suiteLogDiff": false,
+  "suiteLogDiff": true,
   "os": "win32_10.0.14393"
 }

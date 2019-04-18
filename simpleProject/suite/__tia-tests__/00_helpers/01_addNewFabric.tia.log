@@ -16,14 +16,14 @@ Initialization of TIA ExtJs helpers ... OK
 Tab "#r-main > tabbar > tab[text="Активы"]":: Click Cmp: ... OK
 Waiting for AJAX requests finish ... OK
 Button "#assets &tabsContainer > button[text="Организация"]":: Click Cmp: ... OK
-TextField "#organization &form > textarea[name=name]": 'Next Generation' ... OK
-ComboBox "#organization &form > combobox[name=type_id]": Set by mouse: 'Организация' ... OK
-ComboBox "#organization &form > tagfield[name=cities_id]": Set by mouse: 'Воронеж' ... OK
-Sleep 1000 ms ... OK
-ComboBox "#organization &form > usertagfield[name=admin_ids]": Set by mouse: 'Иван Петров (ipetrov@rvlab.net)' ... OK
-ComboBox "#organization &compliance_manager": Set by mouse: 'Иван Петров (ipetrov@rvlab.net)' ... OK
-TextField "#organization &form > textarea[name=description]": 'Powerful and Biggest Corporation' ... OK
-Button "#organization &form > button[text="Добавить"]":: Click Cmp: ... OK
-Quiting ... OK
+GridColumn "#organization &grid > headercontainer > multiline_treecolumn[text="Наименование"]": Click trigger ... OK
+Sleep 2000 ms ... OK
+Component "menu > menucheckitem#filters":: Click Cmp: ... OK
+Sleep 2000 ms ... OK
+TextField "menu > textfield":: Click Cmp: ... OK
+TextField "menu > textfield": 'Next' ... OK
+Sleep 11000 ms ... OK
+Initialization of TIA ExtJs Exp helpers ... OK
+Set body clicker to keep session active ... OK
 =================
 Pass: 0, Fail: 0
