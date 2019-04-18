@@ -3,10 +3,10 @@ Arch: x64
 Cwd: C:\src\js\ExJS\tia-test\simpleProject
 Proc Exec: C:\Program Files\nodejs\node.exe
 Proc Args: 
-Proc Pid: 15264
+Proc Pid: 13372
 Proc Platform: win32
 Proc Title: npm
-Proc Uptime: 1.848
+Proc Uptime: 25.773
 Node release info: { name: 'node',
   lts: 'Dubnium',
   sourceUrl:
@@ -29,8 +29,8 @@ Node version info: { http_parser: '2.8.0',
   unicode: '11.0',
   cldr: '33.1',
   tz: '2018e' }
-Memory MB: { rss: '78.543',
-  heapTotal: '63.520',
-  heapUsed: '47.919',
-  external: 7196715 }
-CPU ms: { user: '1171.000', system: '359.000' }
+Memory MB: { rss: '68.328',
+  heapTotal: '52.520',
+  heapUsed: '46.964',
+  external: 27636 }
+CPU ms: { user: '1781.000', system: '437.000' }
