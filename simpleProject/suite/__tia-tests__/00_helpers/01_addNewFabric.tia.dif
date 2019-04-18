@@ -7,7 +7,7 @@
 -Send keys: "admin", to element (id: username) ... OK
 -Send keys: "admin", to element (id: password) ... OK
 -Click on element (id: submit) ... OK
--Sleep 10000 ms ... OK
+-Sleep 9000 ms ... OK
 -Initialization of TIA helpers ... Execute script from file C:\src\js\ExJS\tia-test\node_modules\tia\api\selenium\browser-part\tia-br-helpers.js ... OK
 -Execute script from file C:\src\js\ExJS\tia-test\node_modules\tia\common-utils\common-constants.js ... OK
 -Execute script from file C:\src\js\ExJS\tia-test\node_modules\tia\common-utils\common-misc-utils.js ... OK
@@ -16,11 +16,20 @@
 +Sleep 5000 ms ... OK
 +Initialization of TIA ExtJs Exp helpers ... =================
 +Pass: 0, Fail: 0
-@@ -15,3 +14,0 @@
+@@ -15,15 +14,1 @@
 -Initialization of TIA ExtJs helpers ... OK
 -Tab "#r-main > tabbar > tab[text="Активы"]":: Click Cmp: ... OK
--Initialization of TIA ExtJs Exp helpers ... OK
-@@ -19,3 +15,0 @@
--Sleep 8000 ms ... OK
+-Waiting for AJAX requests finish ... OK
+-Button "#assets &tabsContainer > button[text="Организация"]":: Click Cmp: ... OK
+-TextField "#organization &form > textarea[name=name]": 'Next Generation' ... OK
+-ComboBox "#organization &form > combobox[name=type_id]": Set by mouse: 'Организация' ... OK
+-ComboBox "#organization &form > tagfield[name=cities_id]": Set by mouse: 'Воронеж' ... OK
+-Sleep 1000 ms ... OK
+-ComboBox "#organization &form > usertagfield[name=admin_ids]": Set by mouse: 'Иван Петров (ipetrov@rvlab.net)' ... OK
+-ComboBox "#organization &compliance_manager": Set by mouse: 'Иван Петров (ipetrov@rvlab.net)' ... OK
+-TextField "#organization &form > textarea[name=description]": 'Powerful and Biggest Corporation' ... OK
+-Button "#organization &form > button[text="Добавить"]":: Click Cmp: ... OK
+-Quiting ... OK
 -=================
 -Pass: 0, Fail: 0
++Set body clicker to keep session active ... OK
