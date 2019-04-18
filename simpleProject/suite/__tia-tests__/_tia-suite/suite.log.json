@@ -1,0 +1,43 @@
+{
+  "path": "C:\\src\\js\\ExJS\\tia-test\\simpleProject\\suite\\__tia-tests__",
+  "title": "",
+  "run": 1,
+  "passed": 0,
+  "failed": 0,
+  "diffed": 1,
+  "expDiffed": 0,
+  "time": 25258.121074,
+  "skipped": 0,
+  "screenShotCounter": 0,
+  "children": [
+    {
+      "path": "C:\\src\\js\\ExJS\\tia-test\\simpleProject\\suite\\__tia-tests__\\00_helpers",
+      "title": "",
+      "run": 1,
+      "passed": 0,
+      "failed": 0,
+      "diffed": 1,
+      "expDiffed": 0,
+      "time": 25256.416807,
+      "skipped": 0,
+      "screenShotCounter": 0,
+      "children": [
+        {
+          "path": "C:\\src\\js\\ExJS\\tia-test\\simpleProject\\suite\\__tia-tests__\\00_helpers\\01_addNewFabric.tia.js",
+          "title": "Add new fabric",
+          "run": 1,
+          "passed": 0,
+          "failed": 0,
+          "diffed": 1,
+          "expDiffed": 0,
+          "time": 25221.65387,
+          "skipped": 0,
+          "screenShotCounter": 0
+        }
+      ]
+    }
+  ],
+  "isSuiteRoot": true,
+  "suiteLogDiff": false,
+  "os": "win32_10.0.14393"
+}

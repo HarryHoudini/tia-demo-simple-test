@@ -1,15 +1,26 @@
 @@ -2,1 +2,1 @@
 -Title: Add new fabric
 +Title: Test for client exceptions
-@@ -9,1 +9,1 @@
+@@ -6,0 +6,1 @@
++Sleep 3000 ms ... OK
+@@ -7,7 +8,5 @@
+-Send keys: "admin", to element (id: username) ... OK
+-Send keys: "admin", to element (id: password) ... OK
 -Click on element (id: submit) ... OK
+-Sleep 10000 ms ... OK
+-Initialization of TIA helpers ... Execute script from file C:\src\js\ExJS\tia-test\node_modules\tia\api\selenium\browser-part\tia-br-helpers.js ... OK
+-Execute script from file C:\src\js\ExJS\tia-test\node_modules\tia\common-utils\common-constants.js ... OK
+-Execute script from file C:\src\js\ExJS\tia-test\node_modules\tia\common-utils\common-misc-utils.js ... OK
++Script execution ... OK
 +Send ENTER to element (id: submit) ... OK
-@@ -11,1 +11,3 @@
--Initialization of TIA ExtJs Exp helpers ... OK
++Sleep 5000 ms ... OK
 +Initialization of TIA ExtJs Exp helpers ... =================
 +Pass: 0, Fail: 0
-+OK
-@@ -13,3 +15,0 @@
--Sleep 10000 ms ... OK
+@@ -15,3 +14,0 @@
+-Initialization of TIA ExtJs helpers ... OK
+-Tab "#r-main > tabbar > tab[text="Активы"]":: Click Cmp: ... OK
+-Initialization of TIA ExtJs Exp helpers ... OK
+@@ -19,3 +15,0 @@
+-Sleep 8000 ms ... OK
 -=================
 -Pass: 0, Fail: 0

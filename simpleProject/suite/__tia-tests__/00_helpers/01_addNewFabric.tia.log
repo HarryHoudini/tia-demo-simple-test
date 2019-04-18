@@ -3,13 +3,19 @@ Title: Add new fabric
 Initialization (with default profile) ... OK
 Maximize ... OK
 Loading a page with URL: "https://test5-demo.rvision.pro/login" ... OK
-Sleep 3000 ms ... OK
 Waiting for element enabled and visible by id (id: username) ... OK
-Script execution ... OK
+Send keys: "admin", to element (id: username) ... OK
+Send keys: "admin", to element (id: password) ... OK
 Click on element (id: submit) ... OK
-Sleep 5000 ms ... OK
+Sleep 10000 ms ... OK
+Initialization of TIA helpers ... Execute script from file C:\src\js\ExJS\tia-test\node_modules\tia\api\selenium\browser-part\tia-br-helpers.js ... OK
+Execute script from file C:\src\js\ExJS\tia-test\node_modules\tia\common-utils\common-constants.js ... OK
+Execute script from file C:\src\js\ExJS\tia-test\node_modules\tia\common-utils\common-misc-utils.js ... OK
+OK
+Initialization of TIA ExtJs helpers ... OK
+Tab "#r-main > tabbar > tab[text="Активы"]":: Click Cmp: ... OK
 Initialization of TIA ExtJs Exp helpers ... OK
 Set body clicker to keep session active ... OK
-Sleep 10000 ms ... OK
+Sleep 8000 ms ... OK
 =================
 Pass: 0, Fail: 0

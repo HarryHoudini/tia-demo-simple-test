@@ -1,13 +1,15 @@
 {
   "name": "tia-test",
   "version": "1.0.0",
-  "description": "Testing with tia freamfork",
-  "main": "index.js",
+  "description": "Testing with tia freamfork", 
   "scripts": {
-    "test": "./node_modules/.bin/tia"
+    "test": "./node_modules/.bin/tia --err-to-console --log-to-console --trace-level 2  --def-host https://test5-demo.rvision.pro/",
+    "debug": "./node_modules/.bin/tia --ej-explore --err-to-console --log-to-console --trace-level 2  --def-host https://test5-demo.rvision.pro/"
   },
   "author": "Jon Jonson",
   "license": "ISC",
+  "types": "./node_modules/tia/types/index.d.ts",
+  "typings": "./node_modules/tia/types/index.d.ts",
   "dependencies": {
     "@types/node": "^11.13.4",
     "tia": "^0.26.8",

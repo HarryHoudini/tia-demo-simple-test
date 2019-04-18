@@ -5,7 +5,7 @@
 ====================    Short Log END.    ====================
 
 ====================    Verbose Log BEGIN:    ====================
- "suite", Dif: 1, fail: 0, edif: 0, skip: 0, ""
-| "00_helpers", Dif: 1, fail: 0, edif: 0, skip: 0, ""
-| | "01_addNewFabric.tia.js", DIF, fail: 0, pass: 0, "Add new fabric"
+ "suite", Dif: 1, fail: 0, edif: 0, skip: 0, 25258.12 ms, ""
+| "00_helpers", Dif: 1, fail: 0, edif: 0, skip: 0, 25256.42 ms, ""
+| | "01_addNewFabric.tia.js", DIF, fail: 0, pass: 0, 25221.65 ms, "Add new fabric"
 ====================    Verbose Log END.    ====================

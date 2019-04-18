@@ -1,6 +1,4 @@
 <<<< Summary of tests results: >>>> 
 FAILED
-Error: Unexpected line prefix:
-oldPath: C:\src\js\ExJS\tia-test\simpleProject\suite\__tia-tests__\_tia-suite\suite.log.notime
-newPath: C:\src\js\ExJS\tia-test\simpleProject\suite\__tia-tests__\_tia-suite\suite.et
+ET_SLOG, AS PREV(1 dif(s) changed), "suite", Dif: 1, fail: 0, edif: 0, skip: 0, 25258.12 ms, win32_10.0.14393
 <<<< ===================== >>>> 
