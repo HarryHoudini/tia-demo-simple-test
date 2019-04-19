@@ -1,7 +1,7 @@
 // import {main,actives,organisation} from '../../../../index'
 const { t, l, s } = gT;
-
 const eC = gT.eC;
+
 
 async function test() {
   t.setTitle("Add new fabric");
@@ -53,7 +53,7 @@ async function test() {
   // await eC.textfield.a.clickInput('menu > textfield')
   await eC.textfield.a.click('menu > textfield')
   await eC.textfield.a.sendKeys('menu > textfield', 'Next')
-  await eC.textfield.a.sendKeys('menu > textfield', 'Next')
+  await eC.textfield.a.sendEnter('menu > textfield')
   await s.driver.sleep(11000)
 
   await gT.e.explore.init();  

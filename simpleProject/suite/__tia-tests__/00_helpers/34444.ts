@@ -2,6 +2,7 @@ import {gT} from "tia"
 const { t, l, s, sOrig } = gT;
 const eC = gT.eC;
 
+
 async function test() {
   t.setTitle("Test for client exceptions");
   await s.driver.init(false, true)
@@ -9,6 +10,7 @@ async function test() {
   await s.driver.sleep(10000, true)
 
   await eC.textfield.a.('menu > textfield')
+  await eC.textfield.a.sendEnter()
 
   await gT.eC.component.a.clickInput('menu > menucheckitem#filters')
   await gT.eC.textfield.a.('menu > textfield', 'Next Generation')

@@ -10,3 +10,5 @@
 [0418/190642.877:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
 [0418/190642.877:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
 [0418/190642.878:ERROR:exception_snapshot_win.cc(98)] thread ID 3720 not found in process
+[0418/235730.450:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0418/235730.451:ERROR:exception_snapshot_win.cc(98)] thread ID 15012 not found in process

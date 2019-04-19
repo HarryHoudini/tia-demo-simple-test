@@ -1,4 +1,4 @@
 <<<< Summary of tests results: >>>> 
 FAILED
-ET_SLOG, DIF FROM PREV, "suite", Dif: 1, fail: 0, edif: 0, skip: 0, 38022.11 ms, win32_10.0.14393
+ET_SLOG, AS PREV, "suite", Dif: 1, fail: 0, edif: 0, skip: 0, 36655.80 ms, win32_10.0.14393
 <<<< ===================== >>>> 
