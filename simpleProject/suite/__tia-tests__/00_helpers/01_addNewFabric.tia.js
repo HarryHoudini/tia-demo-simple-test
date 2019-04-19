@@ -52,6 +52,7 @@ async function test() {
   await eC.textfield.a.sendKeys('menu > textfield', 'Next')
   await eC.textfield.a.sendEnter('menu > textfield')
   await eC.tableview.l.content('#organization &grid > treeview')
+  //Post condition: Deleting added Organisation
   await eC.tableview.a.clickFirstRowCellByColText('#organization &grid > treeview', 'Тип')  
   await eC.button.a.click('#organization &removeBtn')
   await eC.button.a.click('messagebox[title="Удаление"] > toolbar > button#yes')
