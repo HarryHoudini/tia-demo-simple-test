@@ -20,43 +20,43 @@ async function test() {
   await eC.button.a.click(
     '#assets &tabsContainer > button[text="Организация"]'
   );
-  // await eC.textfield.a.sendKeys(
-  //   "#organization &form > textarea[name=name]",
-  //   "Next Generation"
-  // );
-  // await eC.combobox.a.setByMouse(
-  //   "#organization &form > combobox[name=type_id]",
-  //   "Организация"
-  // );
-  // await eC.combobox.a.setByMouse(
-  //   "#organization &form > tagfield[name=cities_id]",
-  //   "Воронеж"
-  // );
-  // await s.driver.sleep(1000);
-  // await eC.combobox.a.setByMouse(
-  //   "#organization &form > usertagfield[name=admin_ids]",
-  //   "Иван Петров (ipetrov@rvlab.net)"
-  // );
-  // await eC.combobox.a.setByMouse(
-  //   "#organization &compliance_manager",
-  //   "Иван Петров (ipetrov@rvlab.net)"
-  // );
-  // await eC.textfield.a.sendKeys(
-  //   "#organization &form > textarea[name=description]",
-  //   "Powerful and Biggest Corporation"
-  // );
-  // await eC.button.a.click('#organization &form > button[text="Добавить"]');
-  await gT.eC.gridcolumn.a.clickTrigger('#organization &grid > headercontainer > multiline_treecolumn[text="Наименование"]')
-  await s.driver.sleep(2000)
-  await gT.eC.component.a.click('menu > menucheckitem#filters')
-  await s.driver.sleep(2000)
-  // await eC.textfield.a.clickInput('menu > textfield')
+  await eC.textfield.a.sendKeys(
+    "#organization &form > textarea[name=name]",
+    "Next Generation"
+  );
+  await eC.combobox.a.setByMouse(
+    "#organization &form > combobox[name=type_id]",
+    "Организация"
+  );
+  await eC.combobox.a.setByMouse(
+    "#organization &form > tagfield[name=cities_id]",
+    "Воронеж"
+  );
+  await s.driver.sleep(1000);
+  await eC.combobox.a.setByMouse(
+    "#organization &form > usertagfield[name=admin_ids]",
+    "Иван Петров (ipetrov@rvlab.net)"
+  );
+  await eC.combobox.a.setByMouse(
+    "#organization &compliance_manager",
+    "Иван Петров (ipetrov@rvlab.net)"
+  );
+  await eC.textfield.a.sendKeys(
+    "#organization &form > textarea[name=description]",
+    "Powerful and Biggest Corporation"
+  );
+  await eC.button.a.click('#organization &form > button[text="Добавить"]');
+  await eC.gridcolumn.a.clickTrigger('#organization &grid > headercontainer > multiline_treecolumn[text="Наименование"]')
+  await eC.component.a.click('menu > menucheckitem#filters')
   await eC.textfield.a.click('menu > textfield')
   await eC.textfield.a.sendKeys('menu > textfield', 'Next')
   await eC.textfield.a.sendEnter('menu > textfield')
-  await s.driver.sleep(11000)
-
-  await gT.e.explore.init();  
+  await eC.tableview.l.content('#organization &grid > treeview')
+  await eC.tableview.a.clickFirstRowCellByColText('#organization &grid > treeview', 'Тип')  
+  await eC.button.a.click('#organization &removeBtn')
+  await eC.button.a.click('messagebox[title="Удаление"] > toolbar > button#yes')
+  await eC.tableview.l.content('#organization &grid > treeview')
+  // await gT.e.explore.init();
 
   await s.driver.quit();
 }

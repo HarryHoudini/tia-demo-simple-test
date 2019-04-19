@@ -5,23 +5,34 @@
 +Initialization of TIA helpers ... Execute script from file C:\src\js\ExJS\tia-test\node_modules\tia\api\selenium\browser-part\tia-br-helpers.js ... OK
 +Execute script from file C:\src\js\ExJS\tia-test\node_modules\tia\common-utils\common-constants.js ... OK
 +Execute script from file C:\src\js\ExJS\tia-test\node_modules\tia\common-utils\common-misc-utils.js ... OK
-@@ -19,10 +19,9 @@
+@@ -27,29 +27,1 @@
 -GridColumn "#organization &grid > headercontainer > multiline_treecolumn[text="Наименование"]": Click trigger ... OK
--Sleep 2000 ms ... OK
 -Component "menu > menucheckitem#filters":: Click Cmp: ... OK
--Sleep 2000 ms ... OK
 -TextField "menu > textfield":: Click Cmp: ... OK
 -TextField "menu > textfield": 'Next' ... OK
 -TextField "menu > textfield": Send ENTER ... OK
--Sleep 11000 ms ... OK
+-Content: TableView "#organization &grid > treeview":
+-    /~~~~~~~~\
+-Table content: 
+-Title: null
+-(Visible)
+-Header: multiline_treecolumn: "Наименование" | gridcolumn: "Описание" | gridcolumn: "Тип" | gridcolumn: "Количество инцидентов" | gridcolumn: "Администратор безопасности" | gridcolumn: "Локация" | gridcolumn: "Инциденты: Уровень &quot;Высокий&quot;. Среднее время реагирования."
+-Next Generation | Powerful and Biggest Corporation | Организация | 0 | Иван Петров (ipetrov@rvlab.net) | Воронеж | -
+-
+-    \________/
+-
+-TableView "#organization &grid > treeview": Click first row cell by Col Text: Тип ... OK
+-Button "#organization &removeBtn":: Click Cmp: ... OK
+-Button "messagebox[title="Удаление"] > toolbar > button#yes":: Click Cmp: ... OK
+-Content: TableView "#organization &grid > treeview":
+-    /~~~~~~~~\
+-Table content: 
+-Title: null
+-(Visible)
+-Header: multiline_treecolumn: "Наименование" | gridcolumn: "Описание" | gridcolumn: "Тип" | gridcolumn: "Количество инцидентов" | gridcolumn: "Администратор безопасности" | gridcolumn: "Локация" | gridcolumn: "Инциденты: Уровень &quot;Высокий&quot;. Среднее время реагирования."
+-
+-    \________/
+-
 -Initialization of TIA ExtJs Exp helpers ... OK
 -Set body clicker to keep session active ... OK
-+TextField "#organization &form > textarea[name=name]": 'Next Generation' ... OK
-+ComboBox "#organization &form > combobox[name=type_id]": Set by mouse: 'Организация' ... OK
-+ComboBox "#organization &form > tagfield[name=cities_id]": Set by mouse: 'Воронеж' ... OK
-+Sleep 1000 ms ... OK
-+ComboBox "#organization &form > usertagfield[name=admin_ids]": Set by mouse: 'Иван Петров (ipetrov@rvlab.net)' ... OK
-+ComboBox "#organization &compliance_manager": Set by mouse: 'Иван Петров (ipetrov@rvlab.net)' ... OK
-+TextField "#organization &form > textarea[name=description]": 'Powerful and Biggest Corporation' ... OK
-+Button "#organization &form > button[text="Добавить"]":: Click Cmp: ... OK
 +Quiting ... OK

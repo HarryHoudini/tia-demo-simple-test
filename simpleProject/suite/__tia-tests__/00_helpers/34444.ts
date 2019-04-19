@@ -9,8 +9,13 @@ async function test() {
   await s.driver.sleep(10000, true)
   await s.driver.sleep(10000, true)
 
+  await gT.eC.button.a.('messagebox[title="Удаление"] > toolbar > button#yes')
+
   await eC.textfield.a.('menu > textfield')
   await eC.textfield.a.sendEnter()
+  gT.eC.tableview.l.content('#organization &grid > treeview')
+  gT.eC.tableview.a.clickCellByColTexts('#organization &grid > treeview', 'name')
+  await gT.eC.button('#organization &removeBtn')
 
   await gT.eC.component.a.clickInput('menu > menucheckitem#filters')
   await gT.eC.textfield.a.('menu > textfield', 'Next Generation')

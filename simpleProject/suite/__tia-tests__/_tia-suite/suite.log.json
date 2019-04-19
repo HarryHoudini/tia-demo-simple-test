@@ -6,7 +6,7 @@
   "failed": 0,
   "diffed": 1,
   "expDiffed": 0,
-  "time": 36655.796477,
+  "time": 28505.548331,
   "skipped": 0,
   "screenShotCounter": 0,
   "children": [
@@ -18,7 +18,7 @@
       "failed": 0,
       "diffed": 1,
       "expDiffed": 0,
-      "time": 36653.917676,
+      "time": 28503.96042,
       "skipped": 0,
       "screenShotCounter": 0,
       "children": [
@@ -30,7 +30,7 @@
           "failed": 0,
           "diffed": 1,
           "expDiffed": 0,
-          "time": 36633.441052,
+          "time": 28475.035794,
           "skipped": 0,
           "screenShotCounter": 0
         }
