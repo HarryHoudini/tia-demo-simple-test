@@ -6,7 +6,7 @@
           "inlineSourceMap": true,
           "outDir": "./built",        
           "lib": ["es2018"],          
-          "types": ["./simpleProject/suite/*", "node"]
+          "types": ["./node_modules/tia/types", "node"]
         },
         "exclude": ["./node_modules/"]
       }
